@@ -33,4 +33,7 @@ wheels/
 .DS_Store
 
 # Frames directory
-frames/ 
+frames/
+
+# Added from the code block
+*.pt 
