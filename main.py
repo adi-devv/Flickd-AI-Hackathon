@@ -64,6 +64,6 @@ for frame_path in os.listdir(output_dir):
         frame_number = int(frame_path.split("_")[1].split(".")[0])
         detections = detect_objects(f"{output_dir}/{frame_path}", frame_number)
         all_detections.extend(detections)
-with open("frames/detections.json", "w") as f:
+with open("detections.json", "w") as f:
     json.dump(all_detections, f, indent=2)
-print(f"Saved detections to frames/detections.json")
+print(f"Saved detections to detections.json")
