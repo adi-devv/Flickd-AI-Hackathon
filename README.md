@@ -6,16 +6,19 @@
 [![CLIP](https://img.shields.io/badge/CLIP-OpenAI-red)](https://github.com/openai/CLIP)
 
 <div align="center">
-  <em>AI-powered fashion detection and matching system</em>
+  <em>AI-powered fashion detection and matching system for Flickd</em>
 </div>
 
 ## 📋 Overview
 
-Flickd is an advanced AI system that revolutionizes fashion detection in videos. It combines state-of-the-art computer vision and natural language processing to:
-- Detect fashion items in video frames
-- Match detected items with similar products from a catalog
-- Classify fashion vibes and styles
-- Provide detailed product recommendations
+This project is developed for Flickd Hackathon, a new-age fashion app that brings AI-powered fashion detection to your fingertips. The system enhances Flickd's capabilities by:
+
+- Automatically detecting fashion items in user-uploaded videos
+- Matching detected items with similar products from Flickd's catalog
+- Analyzing fashion styles and vibes to provide personalized recommendations
+- Enabling seamless product discovery and shopping experiences
+
+Built with cutting-edge AI technologies, this system helps Flickd users discover fashion items they love, find similar products, and get style recommendations - all through the power of computer vision and natural language processing.
 
 ## 🛠️ Technologies Used
 
@@ -100,31 +103,31 @@ Flickd is an advanced AI system that revolutionizes fashion detection in videos.
 Flickd/
 ├── main.py                      # Main processing script
 ├── data/
-│   ├── cache/                  # Cached embeddings and indices
-│   │   ├── cache_metadata.pkl  # Cache metadata
-│   │   ├── faiss_index.bin     # FAISS index file
-│   │   ├── product_info.pkl    # Product information cache
-│   │   └── product_id_to_indices.pkl  # Product ID mapping
-│   ├── product_data.csv        # Product catalog data
-│   └── images.csv             # Image URLs and metadata
-├── detected_frames/            # Frames with detection boxes
-│   └── detected_frame_*.jpg   # Annotated frames with bounding boxes
-├── cropped_frames/            # Cropped detected items
-│   └── crop_frame_*_*.jpg    # Cropped fashion items (format: frame_number_item_class.jpg)
-├── frames/                    # Extracted video frames
-│   └── frame_*.jpg           # Raw video frames
-├── outputs/                  # JSON output files
-│   ├── output_*.json        # Detection and matching results
-│   └── vibe_*.json         # Style classification results
-├── models/                  # Model files
-│   └── yolov8m.pt         # YOLOv8 model weights
-├── api/                    # API related files
-│   └── app.py            # FastAPI application
-├── dataset/               # Dataset files
-│   └── fashion_dataset/  # Training dataset
-├── requirements.txt      # Project dependencies
-├── data.yaml            # Configuration file
-└── .gitignore          # Git ignore rules
+│   ├── cache/
+│   │   ├── cache_metadata.pkl
+│   │   ├── faiss_index.bin
+│   │   ├── product_info.pkl
+│   │   └── product_id_to_indices.pkl
+│   ├── product_data.csv
+│   └── images.csv
+├── detected_frames/
+│   └── detected_frame_*.jpg
+├── cropped_frames/
+│   └── crop_frame_*_*.jpg
+├── frames/
+│   └── frame_*.jpg
+├── outputs/
+│   ├── output_*.json
+│   └── vibe_*.json
+├── models/
+│   └── yolov8m.pt
+├── api/
+│   └── app.py
+├── dataset/
+│   └── fashion_dataset/
+├── requirements.txt
+├── data.yaml
+└── .gitignore
 ```
 
 ### Key Components
