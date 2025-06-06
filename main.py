@@ -373,7 +373,7 @@ def match_products(detections, index, product_info, product_id_to_indices, clip_
     for i, detection in enumerate(detections):
         try:
             crop = detection['crop']
-            crop_path = f"detected_frames/crop_frame_{detection['frame_number']}_{detection['class']}_{i}.jpg"
+            crop_path = f"cropped_frames/crop_frame_{detection['frame_number']}_{detection['class']}_{i}.jpg"
             cv2.imwrite(crop_path, crop)
             logger.debug(f"Saved crop to {crop_path}")
             crop_image = Image.fromarray(cv2.cvtColor(crop, cv2.COLOR_BGR2RGB))
@@ -502,9 +502,12 @@ def main(video_path, images_csv, product_data_csv, caption, video_id, output_jso
     # Process video
     output_dir = "frames"
     detectedframepath = "detected_frames"
+    cropped_frames_dir = "cropped_frames"
+
     if extract_frames(video_path, output_dir):
         detections = []
         os.makedirs(detectedframepath, exist_ok=True)
+        os.makedirs(cropped_frames_dir, exist_ok=True)
         for frame_path in os.listdir(output_dir):
             if frame_path.endswith(".jpg"):
                 frame_number = int(frame_path.split("_")[1].split(".")[0])
