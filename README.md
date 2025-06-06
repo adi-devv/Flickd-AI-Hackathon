@@ -182,6 +182,14 @@ The system generates:
   - Semantic matching
   - Style classification
 
+### Model Training Details
+- **Hardware**: NVIDIA GTX 1650
+- **Training Time**: 10.5 hours
+- **Epochs**: 5
+- **Dataset**: [Colorful Fashion Dataset for Object Detection](https://www.kaggle.com/datasets/nguyngiabol/colorful-fashion-dataset-for-object-detection)
+  - Used for training YOLOv8m model
+  - Contains diverse fashion items with annotations
+
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
