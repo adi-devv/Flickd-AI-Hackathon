@@ -190,6 +190,24 @@ The system generates:
   - Used for training YOLOv8m model
   - Contains diverse fashion items with annotations
 
+### Model Performance
+
+#### Training Results
+![Training Results](runs/detect/train3/results.png)
+*Training metrics over epochs showing mAP, precision, recall, and loss*
+
+#### Confusion Matrix
+![Confusion Matrix](runs/detect/train3/confusion_matrix.png)
+*Confusion matrix showing model's classification performance*
+
+#### Precision-Recall Curves
+![PR Curves](runs/detect/train3/PR_curve.png)
+*Precision-Recall curves for different confidence thresholds*
+
+#### Validation Results
+![Validation Batch](runs/detect/train3/val_batch0_pred.jpg)
+*Example validation batch showing model predictions*
+
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:

@@ -35,7 +35,6 @@ wheels/
 # Frames directory
 frames/
 dataset/
-runs/
 models/
 
 # Added from the code block
