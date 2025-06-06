@@ -36,6 +36,15 @@ wheels/
 frames/
 dataset/
 models/
+cropped_frames/
+detected_frames/
 
 # Added from the code block
-*.pt 
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+cropped_frames/
+detected_frames/ 
