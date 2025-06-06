@@ -6,8 +6,6 @@
 [![CLIP](https://img.shields.io/badge/CLIP-OpenAI-red)](https://github.com/openai/CLIP)
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Flickd+Fashion+Detection" alt="Flickd Demo" width="800"/>
-  <br>
   <em>AI-powered fashion detection and matching system</em>
 </div>
 
@@ -82,7 +80,7 @@ Flickd is an advanced AI system that revolutionizes fashion detection in videos.
 
 4. **Download YOLOv8 Model**
    ```bash
-   wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
+   wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m.pt
    ```
 
 ## 📁 Project Structure
@@ -108,7 +106,7 @@ Flickd/
 │   ├── output_*.json        # Detection and matching results
 │   └── vibe_*.json         # Style classification results
 ├── models/                  # Model files
-│   └── yolov8n.pt         # YOLOv8 model weights
+│   └── yolov8m.pt         # YOLOv8 model weights
 ├── api/                    # API related files
 │   └── app.py            # FastAPI application
 ├── dataset/               # Dataset files
