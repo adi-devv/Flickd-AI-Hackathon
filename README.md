@@ -17,6 +17,23 @@ Flickd is an advanced AI system that revolutionizes fashion detection in videos.
 - Classify fashion vibes and styles
 - Provide detailed product recommendations
 
+## 🛠️ Technologies Used
+
+- **Python 3.8+** — Core programming language
+- **YOLOv8 (Ultralytics)** — State-of-the-art object detection
+- **OpenAI CLIP** — Vision-language model for product matching
+- **FAISS** — Efficient similarity search and indexing
+- **PyTorch** — Deep learning framework
+- **OpenCV** — Image and video processing
+- **Pandas** — Data manipulation and analysis
+- **NumPy** — Numerical computing
+- **scikit-learn** — Machine learning utilities
+- **FastAPI** — API development (for serving models)
+- **Jupyter Notebook** — Experimentation and model training
+- **Matplotlib/Seaborn** — Visualization (for analysis and plots)
+- **Requests** — HTTP requests for image downloads
+- **jsonschema** — Output validation
+
 ## ✨ Key Features
 
 ### 🎯 Core Capabilities
@@ -40,11 +57,16 @@ Flickd is an advanced AI system that revolutionizes fashion detection in videos.
   - Color analysis
   - Style matching
 
-### 🛠️ Technical Features
-- Comprehensive logging system
-- Error handling and recovery
-- Efficient caching mechanisms
-- GPU acceleration support
+🚀 Technologies Used
+Ultralytics YOLOv8: For robust object detection and instance segmentation of fashion items.
+OpenCV (cv2): For video frame extraction and image manipulation.
+CLIP (OpenAI): For generating powerful image embeddings used in product similarity search.
+FAISS (Meta): For efficient similarity indexing and searching of product embeddings.
+spaCy: For natural language processing to assist in vibe classification.
+Python: The core programming language.
+numpy & pandas: For numerical operations and data handling.
+requests, Pillow: For handling image fetching and processing.
+jsonschema: For validating the final output structure.
 
 ## 🚀 Getting Started
 
