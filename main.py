@@ -541,11 +541,11 @@ def main(video_path, images_csv, product_data_csv, caption, video_id, output_jso
 
 if __name__ == "__main__":
     # Define paths and inputs
-    video_path = "data/sample_video.mp4"
+    video_path = "data/sample_video2.mp4"
     images_csv = "data/images.csv"
     product_data_csv = "data/product_data.csv"
     caption = '''hello darling trendy clothes right away lets gooooo #streetstyle #2000s'''
-    video_id = "sample_video"
+    video_id = "sample_video2"
     output_json_path = f"outputs/output_{video_id}.json"
     vibe_taxonomy = ["Coquette", "Clean Girl", "Cottagecore", "Streetcore", "Y2K", "Boho", "Party Glam"]
     
