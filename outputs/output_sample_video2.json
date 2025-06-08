@@ -1,0 +1,123 @@
+{
+  "video_id": "sample_video2",
+  "vibes": [
+    "Coquette",
+    "Clean Girl"
+  ],
+  "products": [
+    {
+      "type": "shirt",
+      "colors": [
+        "Sky Blue",
+        "Umber",
+        "Slate Gray"
+      ],
+      "match_type": "similar",
+      "matched_product_id": "14980",
+      "confidence": 0.6963219388574358,
+      "clip_confidence": 0.7421798706054688,
+      "color_confidence": 0.6588018020445642,
+      "crop_image_file": "cropped_frames/crop_frame_0_shirt_0.jpg",
+      "matched_product_colors": [
+        "Silver",
+        "Umber",
+        "Slate Gray"
+      ]
+    },
+    {
+      "type": "skirt",
+      "colors": [
+        "Taupe",
+        "Umber",
+        "Taupe"
+      ],
+      "match_type": "similar",
+      "matched_product_id": "42075",
+      "confidence": 0.7238640138638645,
+      "clip_confidence": 0.7979596853256226,
+      "color_confidence": 0.663240326016713,
+      "crop_image_file": "cropped_frames/crop_frame_480_skirt_12.jpg",
+      "matched_product_colors": [
+        "Pastel Green",
+        "Emerald",
+        "Ash Gray"
+      ]
+    },
+    {
+      "type": "skirt",
+      "colors": [
+        "Taupe",
+        "Silver",
+        "Umber"
+      ],
+      "match_type": "similar",
+      "matched_product_id": "15220",
+      "confidence": 0.6906686450452457,
+      "clip_confidence": 0.8223652839660645,
+      "color_confidence": 0.5829168495645758,
+      "crop_image_file": "cropped_frames/crop_frame_500_skirt_16.jpg",
+      "matched_product_colors": [
+        "Sky Blue",
+        "Umber",
+        "Lavender"
+      ]
+    },
+    {
+      "type": "dress",
+      "colors": [
+        "Dusty Rose",
+        "Millennial Pink",
+        "Charcoal"
+      ],
+      "match_type": "similar",
+      "matched_product_id": "42082",
+      "confidence": 0.7128914635860328,
+      "clip_confidence": 0.7824059128761292,
+      "color_confidence": 0.6560160430061825,
+      "crop_image_file": "cropped_frames/crop_frame_530_dress_18.jpg",
+      "matched_product_colors": [
+        "Powder Blue",
+        "Cyan",
+        "Powder Blue"
+      ]
+    },
+    {
+      "type": "dress",
+      "colors": [
+        "Dusty Rose",
+        "Millennial Pink",
+        "Umber"
+      ],
+      "match_type": "similar",
+      "matched_product_id": "42032",
+      "confidence": 0.658436031105536,
+      "clip_confidence": 0.8274791240692139,
+      "color_confidence": 0.5201280676278521,
+      "crop_image_file": "cropped_frames/crop_frame_540_dress_20.jpg",
+      "matched_product_colors": [
+        "Denim",
+        "Cerulean",
+        "Denim"
+      ]
+    },
+    {
+      "type": "skirt",
+      "colors": [
+        "Taupe",
+        "Umber",
+        "Taupe"
+      ],
+      "match_type": "similar",
+      "matched_product_id": "15350",
+      "confidence": 0.6553423199682094,
+      "clip_confidence": 0.7819473743438721,
+      "color_confidence": 0.5517563663881216,
+      "crop_image_file": "cropped_frames/crop_frame_680_skirt_24.jpg",
+      "matched_product_colors": [
+        "Berry",
+        "Charcoal",
+        "Taupe"
+      ]
+    }
+  ]
+}
